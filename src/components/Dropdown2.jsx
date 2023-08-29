@@ -14,6 +14,7 @@ const Dropdown2 = () => {
                             group-hover:opacity-100 
                             group-hover:visible duration-500 
                             ease-in-out group-hover:transform z-50 min-w-[200px] transform">
+                                
                             <div className="relative top-6 p-6 bg-black rounded-xl shadow-xl w-full">
                                 <div
                                     className="w-10 h-10 bg-black transform rotate-45 absolute top-0 z-0 -translate-x-4 
