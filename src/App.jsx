@@ -7,6 +7,7 @@ import Mega from './components/Mega'
 import Mega2 from './components/Mega2'
 import Dropdown2 from './components/Dropdown2'
 import Mega3 from './components/Mega3'
+import Dropdown3 from './components/Dropdown3'
 
 const App = () => {
   return (
@@ -22,10 +23,12 @@ const App = () => {
       <div>Mega Menu</div>
       <Mega/>
       <Mega2/> */}
-      <div>Dropdown</div>
+      {/* <div>Dropdown</div>
       <Dropdown2/>
       <div>Mega 2</div>
-      <Mega3/>
+      <Mega3/> */}
+      <div>Dropdown</div>
+      <Dropdown3/>
     </div>
   )
 }
