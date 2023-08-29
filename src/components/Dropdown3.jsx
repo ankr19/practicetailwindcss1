@@ -12,9 +12,9 @@ let submenu = [
 const Dropdown3 = () => {
   return (
     <div>
-        <ul className='flex items-center justify-center font-semibold'>
+        <ul className='flex items-center justify-between font-semibold'>
             <li className='relative group px-3 py-3'>
-                <button className='hover:opacity-50 flex cursor-default gap-1'>
+                <button className='hover:opacity-50 flex flex-row cursor-default gap-1'>
                     Dropdown
                     <span className='py-2'>
                         <AiOutlineDown size={14}/>
