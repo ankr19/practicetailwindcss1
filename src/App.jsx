@@ -24,10 +24,10 @@ const App = () => {
       <div>Mega Menu</div>
       <Mega/>
       <Mega2/> */}
-      {/* <div>Dropdown</div>
+      <div>Dropdown</div>
       <Dropdown2/>
       <div>Mega 2</div>
-      <Mega3/> */}
+      <Mega3/>
       <div>Dropdown</div>
       <Dropdown4/>
     </div>
