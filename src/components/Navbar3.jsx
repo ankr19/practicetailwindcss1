@@ -19,7 +19,7 @@ const Navbar3 = () => {
         <div>
             {/* Navbar with dropdown menu  */}
             <div className='w-full h-[40px] flex justify-center items-center bg-[lightgreen] text-black text-[15px]'>
-                <ul className='flex gap-4'>
+                <ul className='flex'>
                     {menu.map((e) => {
                         return (
                             <React.Fragment key={e.id}>
@@ -36,7 +36,7 @@ const Navbar3 = () => {
                                         {e.name}
                                         <BsChevronDown size={14} />
                                         {showCatMenu && (
-                                            <ul className='bg-blue-500 absolute top-6 left-0 px-1 py-1 flex gap-2 h-[100px]  min-w-[250px] text-black shadow-md'>
+                                            <ul className='bg-blue-500 absolute top-6 left-0 px-1 py-1 flex gap-2 h-[100px] justify-center  min-w-[250px] text-black shadow-md'>
                                                 {subMenuData.map((sub)=>{
                                                     <li className='h-12 justify-between items-center text-[15px] rounded-md' key={sub.id}>{sub.name}</li>
                                                 })}
