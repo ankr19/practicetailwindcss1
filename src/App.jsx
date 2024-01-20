@@ -11,6 +11,7 @@ import Dropdown3 from './components/Dropdown3'
 import Dropdown4 from './components/Dropdown4'
 import MainNavbar from './components/MainNavbar'
 import GridSystem from './components/GridSystem'
+import Navbar1 from './components/responsive navbar/Navbar'
 // import Dropdown5 from './Dropdown5'
 
 const App = () => {
@@ -36,7 +37,8 @@ const App = () => {
       <Dropdown4/>  */}
       {/* <MainNavbar/> */}
       {/* <Dropdown5/> */}
-      <GridSystem/>
+      {/* <GridSystem/> */}
+      <Navbar1/>
     </div>
   )
 }
