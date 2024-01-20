@@ -37,13 +37,13 @@ const MainNavbar = () => {
                 open ? "block" : "hidden"
               }`}
             >
-              <li className="flex flex-col w-full items-center px-3 py-2 text-sm hover:border-l-black border-l-4 border-l-black border-r-black hover:border-r-black border-r-4 hover:bg-gray-100 hover:text-black cursor-pointer">
+              <li className="flex flex-col w-full items-center px-3 py-2 text-sm hover:border-l-black border-l-4 border-l-black border-r-black hover:border-r-black border-r-4 hover:bg-gray-100 hover:text-black cursor-pointer rounded-md">
                 Our Company
               </li>
-              <li className="flex flex-col w-full items-center px-3 py-2 text-sm hover:border-l-black border-l-4 border-l-black border-r-black hover:border-r-black border-r-4 hover:bg-gray-100 hover:text-black cursor-pointer">
+              <li className="flex flex-col w-full items-center px-3 py-2 text-sm hover:border-l-black border-l-4 border-l-black border-r-black hover:border-r-black border-r-4 hover:bg-gray-100 hover:text-black cursor-pointer rounded-md">
                 Pricing
               </li>
-              <li className="flex flex-col w-full items-center px-3 py-2 text-sm hover:border-l-black border-l-4 border-l-black border-r-black hover:border-r-black border-r-4 hover:bg-gray-100 hover:text-black cursor-pointer">
+              <li className="flex flex-col w-full items-center px-3 py-2 text-sm hover:border-l-black border-l-4 border-l-black border-r-black hover:border-r-black border-r-4 hover:bg-gray-100 hover:text-black cursor-pointer rounded-md">
                 Menu
               </li>
             </ul>

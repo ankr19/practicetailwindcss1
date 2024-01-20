@@ -10,7 +10,8 @@ import Mega3 from './components/Mega3'
 import Dropdown3 from './components/Dropdown3'
 import Dropdown4 from './components/Dropdown4'
 import MainNavbar from './components/MainNavbar'
-import Dropdown5 from './Dropdown5'
+import GridSystem from './components/GridSystem'
+// import Dropdown5 from './Dropdown5'
 
 const App = () => {
   return (
@@ -33,8 +34,9 @@ const App = () => {
     */}
       {/* <div>Dropdown</div>
       <Dropdown4/>  */}
-      <MainNavbar/>
+      {/* <MainNavbar/> */}
       {/* <Dropdown5/> */}
+      <GridSystem/>
     </div>
   )
 }
