@@ -10,7 +10,7 @@ function Navbar1() {
       <div className='flex items-center font-medium justify-around'>
         <div className='z-50 p-5 md:w-auto w-full flex justify-between md:'>
             <img src="/images/logo.avif" alt="..." className='md:cursor-pointer h-14'/>
-            <div className={`text-3xl mt-[10px] ${open ? "" : "md:hidden"}`} onClick={()=>{setOpen(!open)}}>
+            <div className={`text-3xl mt-[10px] md:hidden`} onClick={()=>{setOpen(!open)}}>
                 {!open ? <AiOutlineMenu size={35}/> : <AiOutlineClose size={35}/>}
             </div>
         </div>
@@ -27,7 +27,8 @@ function Navbar1() {
             <Button/>
         </div>
         {/* mobile navbar */}
-        <ul className={`md:hidden bg-white absolute w-full h-full bottom-0 py-24 pl-4`}>
+        <ul className={`md:hidden bg-[lightblue] absolute w-full h-full bottom-0 py-24 pl-4
+        duration-500 ${open ? "left-0":"left-[-100%]"}`}>
             <li>
                 <div className='py-7 px-3 inline-block'>
                 Home

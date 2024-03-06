@@ -12,6 +12,7 @@ import Dropdown4 from './components/Dropdown4'
 import MainNavbar from './components/MainNavbar'
 import GridSystem from './components/GridSystem'
 import Navbar1 from './components/responsive navbar/Navbar'
+import Part from './components/responsive navbar/Part'
 // import Dropdown5 from './Dropdown5'
 
 const App = () => {
@@ -39,6 +40,9 @@ const App = () => {
       {/* <Dropdown5/> */}
       {/* <GridSystem/> */}
       <Navbar1/>
+      <div className='text-center'>
+      <Part/>
+      </div>
     </div>
   )
 }
