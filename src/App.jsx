@@ -13,6 +13,7 @@ import MainNavbar from './components/MainNavbar'
 import GridSystem from './components/GridSystem'
 import Navbar1 from './components/responsive navbar/Navbar'
 import Part from './components/responsive navbar/Part'
+import FlyoutExample from './components/FlyoutExample'
 // import Dropdown5 from './Dropdown5'
 
 const App = () => {
@@ -43,6 +44,7 @@ const App = () => {
       <div className='text-center'>
       <Part/>
       </div>
+      <FlyoutExample />
     </div>
   )
 }
